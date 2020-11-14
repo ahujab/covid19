@@ -177,7 +177,7 @@ const App = () => {
             <h3>Live Cases by Country</h3>
             <Table countries={tableData} />
             {
-            LineCountries==="US"? <><h3>Live Cases by US States</h3> <TableS states={tableDataS} /></>: "" 
+            LineCountries==="USA"? <><h3>Live Cases by US States</h3> <TableS states={tableDataS} /></>: "" 
             }
             
             <h3>Worldwide new {casesType}</h3>
